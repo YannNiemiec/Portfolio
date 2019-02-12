@@ -1,0 +1,168 @@
+/*
+Theme Name: Portfolio
+Author: Pierre Jehan
+Author URI: http://www.pierre-jehan.org/
+Description: Mon portfolio
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: portfolio
+*/
+
+body {
+    margin: 0;
+}
+
+.flex_container {
+    display: flex;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Titres */
+main h1,
+main h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ====================================== */
+/* === HEADER === */
+header-main {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-main ul.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.header-main ul.menu li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.header-main ul.menu li.current-menu-item {
+    background-color: deepskyblue;
+}
+
+.header-main ul.menu li.current-menu-item a {
+    color: white;
+}
+
+.header-main ul.menu li a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-main ul.menu li a:hover {
+    background-color: blue;
+}
+
+/* === MAIN === */
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Projet */
+.projets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumb {
+    height: 150px;
+    overflow: hidden;
+}
+
+.thumb img {
+    height: 100%;
+    width: auto;
+}
+
+.encart {
+    margin: 20px 50px;
+}
+
+.encart .cta {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: deepskyblue;
+    border-radius: 5px;
+
+    color: #fff;
+}
+
+.encart .cta:hover {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    align-self: end;
+
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 5px;
+
+    color: #fff;
+}
+
+/* Badge */
+.badge {
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.badge:hover {
+    background-color: #000;
+    transition: all .5s;
+}
+
+.badge a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Clients */
+.clients {
+
+}
+
+/* === FOOTER === */
+.footer-main {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-main nav ul li a {
+    display: flex;
+    text-decoration: none;
+    padding: .5em;
+
+    color: black;
+}
+
+/*  */
